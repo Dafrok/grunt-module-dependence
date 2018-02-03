@@ -1,0 +1,30 @@
+{
+  "name": "grunt-module-dependence",
+  "version": "0.1.5",
+  "description": "CMD Module Concat",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dafrok/grunt-module-dependence.git"
+  },
+  "keywords": [
+    "grunt"
+  ],
+  "author": "hancong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dafrok/grunt-module-dependence/issues"
+  },
+  "homepage": "https://github.com/Dafrok/grunt-module-dependence#readme",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "uglify-js": "^2.8.29"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1",
+    "uglify-js": "^2.8.29"
+  }
+}

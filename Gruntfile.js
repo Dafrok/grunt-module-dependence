@@ -11,19 +11,23 @@
 module.exports = function (grunt) {
 
     grunt.initConfig({
+
         dependence: {
             replace: {
+
                 options: {
                     base: '../../src'
                 },
-                files: [
-                        {
-                        src: [ '../../src/**/*.js' ],
-                        dest: 'form.js'
-                    }
-                ]
+
+                files: [ {
+                    src: [ '../../src/**/*.js' ],
+//                    src: '../../src/formula.js',
+                    dest: 'form.js'
+                } ]
+
             }
         }
+
     });
 
     // Actually load this plugin's task(s).
